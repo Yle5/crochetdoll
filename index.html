@@ -18,40 +18,36 @@
     </header>
     <h2>Welcome to my world of pattern</h2>
     <p>On this website, I want to share with you my pattern.</p>
+
+    <section id="slideshow">
+     
+        <div class="slideshow-container">
+      
+          <div class="slide fade">
+            <img src=" bilder/picture1.jpeg" alt="Häkelarbeit 1">
+          </div>
+      
+          <div class="slide fade">
+            <img src=" bilder/picture2.jpeg" alt="Häkelarbeit 2">
+          </div>
+      
+          <div class="slide fade">
+            <img src=" bilder/picture3.jpeg" alt="Häkelarbeit 3">
+          </div>
+      
+          <!-- Navigation -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      
+        <!-- Punkte/Indikatoren -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+      
+
 </body>
-</div>
-
-<!-- Slideshow-->
-<div class="slideshow-container">
-
-    <!-- Bilder mit Nummer und Text -->
-    <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src=" bilder/picture1.jpeg"width:100%">
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="bilder/picture2.jpeg" style="width:100%;">
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="bilder/picture3.jpeg" style="width:100%;">
-    </div>
-
-
-    <!-- Vorhäriges/nächstes Foto -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-
-<!-- Punkt unten zur Angabe welches Foto es ist -->
-<div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-</div>
-
 </html>
